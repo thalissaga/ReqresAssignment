@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCAPI002 - GET SINGLE USER</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df38d1c2-4bfb-4c6c-a350-685936cd6f28</testCaseGuid>
+</TestCaseEntity>

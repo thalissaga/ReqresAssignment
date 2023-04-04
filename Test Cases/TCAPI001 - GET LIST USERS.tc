@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCAPI001 - GET LIST USERS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dec5826f-6713-4bf9-bf97-2bd25592ac0f</testCaseGuid>
+</TestCaseEntity>
