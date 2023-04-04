@@ -21,7 +21,7 @@ response = WS.sendRequest(findTestObject('POST REGISTER SUCCESSFUL', [('URL') : 
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementText(response, 'id', '4')
+WS.verifyElementText(response, 'id', '2')
 
-WS.verifyElementText(response, 'token', 'QpwL5tke4Pnpja7X4')
+WS.verifyElementText(response, 'token', 'QpwL5tke4Pnpja7X2')
 

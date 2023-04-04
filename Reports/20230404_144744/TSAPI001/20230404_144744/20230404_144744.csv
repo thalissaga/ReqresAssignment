@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSAPI001,,,,2023-04-04 14:47:51,2023-04-04 14:48:10,18.862s,PASSED
+,,,,,,,
+Test Cases/TCAPI001 - GET LIST USERS,,,,2023-04-04 14:47:52,2023-04-04 14:48:04,11.718s,PASSED
+"response = sendRequest(findTestObject(""GET LIST USERS"", [""URL"":URL]))",,,,2023-04-04 14:47:54,2023-04-04 14:48:03,9.657s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-04-04 14:48:03,2023-04-04 14:48:03,0.066s,PASSED
+"verifyElementText(response, ""page"", ""1"")",,,,2023-04-04 14:48:03,2023-04-04 14:48:04,0.247s,PASSED
+,,,,,,,
+Test Cases/TCAPI002 - GET SINGLE USER,,,,2023-04-04 14:48:04,2023-04-04 14:48:05,1.783s,PASSED
+"response = sendRequest(findTestObject(""GET SINGLE USER"", [""URL"":URL]))",,,,2023-04-04 14:48:05,2023-04-04 14:48:05,0.501s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-04-04 14:48:05,2023-04-04 14:48:05,0.008s,PASSED
+"verifyElementText(response, ""data.id"", ""2"")",,,,2023-04-04 14:48:05,2023-04-04 14:48:05,0.078s,PASSED
+"verifyElementText(response, ""data.first_name"", ""Janet"")",,,,2023-04-04 14:48:05,2023-04-04 14:48:05,0.088s,PASSED
+,,,,,,,
+Test Cases/TCAPI003 - PUT UPDATE,,,,2023-04-04 14:48:05,2023-04-04 14:48:08,2.510s,PASSED
+"response = sendRequest(findTestObject(""PUT UPDATE"", [""URL"":URL]))",,,,2023-04-04 14:48:07,2023-04-04 14:48:08,0.870s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-04-04 14:48:08,2023-04-04 14:48:08,0.008s,PASSED
+"verifyElementText(response, ""name"", ""morpheus"")",,,,2023-04-04 14:48:08,2023-04-04 14:48:08,0.070s,PASSED
+"verifyElementText(response, ""job"", ""zion resident"")",,,,2023-04-04 14:48:08,2023-04-04 14:48:08,0.086s,PASSED
+,,,,,,,
+Test Cases/TCAPI004 - POST REGISTER SUCCESSFUL,,,,2023-04-04 14:48:08,2023-04-04 14:48:10,2.085s,PASSED
+"response = sendRequest(findTestObject(""POST REGISTER SUCCESSFUL"", [""URL"":URL]))",,,,2023-04-04 14:48:09,2023-04-04 14:48:10,0.849s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-04-04 14:48:10,2023-04-04 14:48:10,0.000s,PASSED
+"verifyElementText(response, ""id"", ""2"")",,,,2023-04-04 14:48:10,2023-04-04 14:48:10,0.095s,PASSED
+"verifyElementText(response, ""token"", ""QpwL5tke4Pnpja7X2"")",,,,2023-04-04 14:48:10,2023-04-04 14:48:10,0.045s,PASSED
