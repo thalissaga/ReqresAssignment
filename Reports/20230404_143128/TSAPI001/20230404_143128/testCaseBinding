@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TCAPI001 - GET LIST USERS","testCaseId":"Test Cases/TCAPI001 - GET LIST USERS","iterationVariableName":""}
+{"testCaseName":"Test Cases/TCAPI002 - GET SINGLE USER","testCaseId":"Test Cases/TCAPI002 - GET SINGLE USER","iterationVariableName":""}
+{"testCaseName":"Test Cases/TCAPI003 - PUT UPDATE","testCaseId":"Test Cases/TCAPI003 - PUT UPDATE","iterationVariableName":""}
+{"testCaseName":"Test Cases/TCAPI004 - POST REGISTER SUCCESSFUL","testCaseId":"Test Cases/TCAPI004 - POST REGISTER SUCCESSFUL","iterationVariableName":""}
